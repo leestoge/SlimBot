@@ -1,6 +1,7 @@
 ﻿using SlimBot.Storage;
 using SlimBot.Storage.Implementations;
 using Unity;
+using Unity.Lifetime;
 using Unity.Resolution;
 
 namespace SlimBot
@@ -21,7 +22,7 @@ namespace SlimBot
         public static void RegisterTypes()
         {
             _container = new UnityContainer();
-            _container.RegisterType<IDataStorage, InMemoryStorage>();
+            _container.RegisterType<IDataStorage, InMemoryStorage>(new ContainerControlledLifetimeManager());
         }
 
         public static T Resolve<T>()
