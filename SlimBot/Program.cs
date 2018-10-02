@@ -1,4 +1,5 @@
 ﻿using System;
+using SlimBot.Discord;
 using SlimBot.Discord.Entities;
 
 namespace SlimBot
@@ -9,10 +10,11 @@ namespace SlimBot
         {
             Unity.RegisterTypes();
             Console.WriteLine("Hello World!");
-            var a = new SlimBotConfig
+
+            var discordBotConfig = new SlimBotConfig
             {
                 Token = "ABC",
-                SocketConfig = new
+                SocketConfig = SocketConfig.GetDefault()
             };
         }
     }
