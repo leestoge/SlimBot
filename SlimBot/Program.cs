@@ -16,6 +16,10 @@ namespace SlimBot
                 Token = "ABC",
                 SocketConfig = SocketConfig.GetDefault()
             };
+
+            var a = Unity.Resolve<Connection>();
+
+            Console.ReadKey();
         }
     }
 }
