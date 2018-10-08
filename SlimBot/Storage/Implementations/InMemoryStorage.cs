@@ -9,7 +9,12 @@ namespace SlimBot.Storage.Implementations
 
         public void StoreObject(object obj, string key)
         {
-            if (_dictionary.ContainsKey(key)) return;
+            if (_dictionary.ContainsKey(key))
+            {
+                _dictionary[key] = obj;
+                return;
+            }
+
             _dictionary.Add(key, obj);
         }
 

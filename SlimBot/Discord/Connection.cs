@@ -16,7 +16,7 @@ namespace SlimBot.Discord
             _logger = logger;
             _client = client;
         }
-        internal async Task ConnectAsync(SlimBotConfig config)
+        public async Task ConnectAsync(SlimBotConfig config)
         {
             _client.Log += _logger.Log;
 
