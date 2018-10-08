@@ -1,6 +1,7 @@
 # SlimBot
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/leestoge/SlimBot/blob/master/LICENSE)
 [![Build status](https://ci.appveyor.com/api/projects/status/p6jmkiy4rsa3rw1f?svg=true)](https://ci.appveyor.com/project/leestoge/slimbot)
+[![Coverage Status](https://coveralls.io/repos/github/leestoge/SlimBot/badge.svg?branch=master)](https://coveralls.io/github/leestoge/SlimBot?branch=master)
 
 Hi! My name is (huh?)
 My name is (what?)
