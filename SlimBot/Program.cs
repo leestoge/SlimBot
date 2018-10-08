@@ -1,8 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-using SlimBot.Discord;
-using SlimBot.Discord.Entities;
-using SlimBot.Storage;
+﻿using System.Threading.Tasks;
 
 namespace SlimBot
 {
@@ -10,18 +6,8 @@ namespace SlimBot
     {
         private static async Task Main()
         {
-            Unity.RegisterTypes();
-            Console.WriteLine("Hello World!");
-
-            var storage = Unity.Resolve<IDataStorage>();
-
-            var connection = Unity.Resolve<Connection>();
-            await connection.ConnectAsync(new SlimBotConfig
-            {
-                Token = storage.RestoreObject<string>("Config/BotToken")
-            });
-
-            Console.ReadKey();
+            var bot = Unity.Resolve<DiscordBot>();
+            await bot.Start();
         }
     }
 }
