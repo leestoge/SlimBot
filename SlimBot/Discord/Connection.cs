@@ -23,7 +23,7 @@ namespace SlimBot.Discord
             await _client.LoginAsync(TokenType.Bot, config.Token);
             await _client.StartAsync();
 
-            await Task.Delay(-1);
+            await Task.Delay(-1).ConfigureAwait(false);
         }
 
     }

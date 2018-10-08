@@ -17,7 +17,10 @@ namespace SlimBot
         {
             get
             {
-                if(_container == null) RegisterTypes();
+                if(_container == null) 
+                {
+                    RegisterTypes();
+                }
                 return _container;
             }
         }
