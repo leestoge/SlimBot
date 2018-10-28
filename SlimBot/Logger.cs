@@ -6,7 +6,7 @@ namespace SlimBot
     {
         public void Log(string message)
         {
-            if(message is null) 
+            if(message == null) 
             {
                 throw new ArgumentException("Message cannot be null.");
             }

@@ -7,7 +7,7 @@ namespace SlimBot.xUnit.Tests
     public class SocketConfigTests
     {
         [Fact]
-        public void ConfigDefaultTest()
+        public static void ConfigDefaultTest()
         {
             const LogSeverity expected = LogSeverity.Verbose;
 
@@ -17,7 +17,7 @@ namespace SlimBot.xUnit.Tests
         }
 
         [Fact]
-        public void ConfigNewTest()
+        public static void ConfigNewTest()
         {
             var config = SocketConfig.GetNew();
 

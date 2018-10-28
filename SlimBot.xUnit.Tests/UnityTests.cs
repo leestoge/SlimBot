@@ -6,7 +6,7 @@ namespace SlimBot.xUnit.Tests
     public class UnityTests
     {
         [Fact]
-        public void UnityResolveTwoObjectsTest()
+        public static void UnityResolveTwoObjectsTest()
         {
             var storage1 = Unity.Resolve<IDataStorage>();
             var storage2 = Unity.Resolve<IDataStorage>();

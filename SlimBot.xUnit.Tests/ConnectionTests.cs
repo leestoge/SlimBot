@@ -9,11 +9,11 @@ namespace SlimBot.xUnit.Tests
     public class ConnectionTests
     {
         [Fact]
-        public void ConnectionAsyncTest()
+        public static void ConnectionAsyncTest()
         {
             Assert.ThrowsAsync<HttpException>(AttemptWrongConnect);
         }
-        private async Task AttemptWrongConnect()
+        private static async Task AttemptWrongConnect()
         {
             var connection = Unity.Resolve<Connection>();
             await connection.ConnectAsync(new SlimBotConfig {Token = "FAKE-TOKEN"});

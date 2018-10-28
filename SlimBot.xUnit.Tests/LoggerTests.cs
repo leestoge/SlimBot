@@ -6,7 +6,7 @@ namespace SlimBot.xUnit.Tests
     public class LoggerTests
     {
         [Fact]
-        public void BasicLoggerTest()
+        public static void BasicLoggerTest()
         {
             var logger = Unity.Resolve<ILogger>();
 
