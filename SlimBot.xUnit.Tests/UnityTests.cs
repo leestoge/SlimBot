@@ -3,7 +3,7 @@ using Xunit;
 
 namespace SlimBot.xUnit.Tests
 {
-    public class UnityTests
+    public static class UnityTests
     {
         [Fact]
         public static void UnityResolveTwoObjectsTest()

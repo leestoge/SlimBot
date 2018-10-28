@@ -4,7 +4,7 @@ using Xunit;
 
 namespace SlimBot.xUnit.Tests
 {
-    public class SocketConfigTests
+    public static class SocketConfigTests
     {
         [Fact]
         public static void ConfigDefaultTest()

@@ -5,7 +5,7 @@ using Xunit;
 
 namespace SlimBot.xUnit.Tests
 {
-    public class DataStorageTests
+    public static class DataStorageTests
     {
         [Fact]
         public static void StorageDefaultsToJson()

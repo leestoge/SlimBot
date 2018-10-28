@@ -6,7 +6,7 @@ using Xunit;
 
 namespace SlimBot.xUnit.Tests
 {
-    public class ConnectionTests
+    public static class ConnectionTests
     {
         [Fact]
         public static void ConnectionAsyncTest()
