@@ -11,8 +11,11 @@
 <h1>
 
 
-    "Hi! My name is (huh?) My name is (what?) My name is, chka-chka Slim Shady and I am the director, executive producer and chief designer of the SlimBot. So basically I drive... the project."
+    Hi! My name is (huh?)
+    My name is (what?) 
+    My name is, chka-chka Slim Shady and I am the director, executive producer and chief designer of the SlimBot. So basically I drive... the project."
     
     - Bora "Please call me Brian" Sandperson.
+
 
 SlimBot is a bot centered around the popular rapper Eminem.
