@@ -15,8 +15,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Discord.Net" Version="2.0.0-beta" />
-    <PackageReference Include="Unity" Version="5.8.11" />
+    <PackageReference Include="Discord.Net" Version="2.1.0" />
+    <PackageReference Include="Unity" Version="5.10.3" />
   </ItemGroup>
 
 </Project>
