@@ -1,10 +1,10 @@
-﻿using Discord.WebSocket;
+﻿using Discord.Commands;
+using Discord.WebSocket;
 using SlimBot.Discord;
 using SlimBot.Storage;
 using SlimBot.Storage.Implementations;
 using Unity;
 using Unity.Injection;
-using Unity.Lifetime;
 using Unity.Resolution;
 
 namespace SlimBot
@@ -31,8 +31,10 @@ namespace SlimBot
             _container.RegisterSingleton<IDataStorage, JsonStorage>();
             _container.RegisterSingleton<ILogger, Logger>();
             _container.RegisterType<DiscordSocketConfig>(new InjectionFactory(i => SocketConfig.GetDefault()));
-            _container.RegisterSingleton<DiscordSocketClient>(new InjectionConstructor(typeof(DiscordSocketConfig)));
-            _container.RegisterSingleton<Discord.Connection>();
+            _container.RegisterSingleton<DiscordSocketClient>(new InjectionConstructor(typeof(DiscordSocketConfig)));         
+            _container.RegisterSingleton<CommandService>();
+            _container.RegisterSingleton<DiscordCommandHandler>();
+            _container.RegisterSingleton<Connection>();
         }
 
         public static T Resolve<T>()
