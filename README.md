@@ -8,14 +8,13 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/p6jmkiy4rsa3rw1f?svg=true)](https://ci.appveyor.com/project/leestoge/slimbot)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/cbd7696ac466474298637bdeb6d502a5)](https://app.codacy.com/app/leestoge/SlimBot?utm_source=github.com&utm_medium=referral&utm_content=leestoge/SlimBot&utm_campaign=Badge_Grade_Dashboard)
 [![Coverage Status](https://coveralls.io/repos/github/leestoge/SlimBot/badge.svg?branch=master)](https://coveralls.io/github/leestoge/SlimBot?branch=master)
-<h1>
+</h1>
 
 
     Hi! My name is (huh?)
     My name is (what?) 
-    My name is, chka-chka Slim Shady and I am the director, executive producer and chief designer of the SlimBot. So basically I drive... the project."
+    My name is, chka-chka Slim Shady and I am the director, executive producer and chief designerof the SlimBot. So basically I drive... the project."
+
+    - Bora "please call me Brian" Sandperson
     
-    - Bora "Please call me Brian" Sandperson.
-
-
 SlimBot is a bot centered around the popular rapper Eminem.
