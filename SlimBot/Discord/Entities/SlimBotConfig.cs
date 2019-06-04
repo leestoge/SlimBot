@@ -1,5 +1,4 @@
-﻿using Discord.WebSocket;
-
+﻿
 namespace SlimBot.Discord.Entities
 {
     public class SlimBotConfig

@@ -1,4 +1,3 @@
-using System;
 using System.Threading.Tasks;
 using SlimBot.Discord;
 using SlimBot.Discord.Entities;
