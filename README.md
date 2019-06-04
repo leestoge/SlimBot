@@ -10,10 +10,12 @@
 [![Coverage Status](https://coveralls.io/repos/github/leestoge/SlimBot/badge.svg?branch=master)](https://coveralls.io/github/leestoge/SlimBot?branch=master)
 </h1>
 
-`Hi! My name is (huh?)
+`"Hi! My name is (huh?)
 My name is (what?) 
 My name is, chka-chka Slim Shady and I am the director, executive producer and chief designer of the SlimBot. So basically I drive... the project."`
 
-~ Bora "please call me Brian" Sandperson
+~ Bora "please call me Brian" Sandperson :clown_face: :+1:
+
+## About SlimBot
 
 SlimBot is a bot centered around the popular rapper Eminem.
