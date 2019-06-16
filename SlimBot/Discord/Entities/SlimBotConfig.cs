@@ -1,5 +1,4 @@
-﻿
-namespace SlimBot.Discord.Entities
+﻿namespace SlimBot.Discord.Entities
 {
     public class SlimBotConfig
     {

@@ -27,6 +27,5 @@ namespace SlimBot.Discord
 
             await Task.Delay(-1).ConfigureAwait(false);
         }
-
     }
 }
