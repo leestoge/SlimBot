@@ -21,13 +21,13 @@ SlimBot is a bot centered around the popular rapper Eminem and is planned to per
 
 `$lyrics [INPUT]` - Gets lyrics for the [INPUT], given it is a viable/existing song. Currently hindered by Discord's 2000 char limit for messages.
 
-More to come hopefully.
-
-## Planned commands/functionality
-
 `$topalbum` - Gets Eminem's current top album and gives some statistics.
 
 `$toptrack` - gets Eminem's current top track and gives some statistics.
+
+More to come hopefully.
+
+## Planned commands/functionality
 
 `$news` - latest news regarding Eminem
 
